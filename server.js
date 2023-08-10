@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // MongoDB Atlas URI
-const mongoURL = "mongodb+srv://diasam001:HbyVtvXjKVWngNvJ@cluster0.kpr6xrs.mongodb.net/";
+const mongoURL = "mongodb+srv://<username>:<password>@cluster0.kpr6xrs.mongodb.net/";
 
 // Connect to the database
 mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true });
